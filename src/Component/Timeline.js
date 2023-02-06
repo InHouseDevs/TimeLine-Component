@@ -7,7 +7,6 @@ const TimeLine = ({statusIndex, timelinePoints}) => {
         first: 0, last: 0
     })
     const updateByState = () => {
-        // const status = "COMPLETED";
         if (statusIndex === 0) {
             setGradient({
                 first: 11, last: 1
